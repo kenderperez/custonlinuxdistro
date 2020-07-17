@@ -1,0 +1,31 @@
+#instalar emulador de terminal alacritty
+sudo add-apt-repository ppa:mmstick76/alacritty
+sudo apt-get update
+sudo apt install alacritty
+
+#instalar rofi para el menu o dmenu
+sudo apt install rofi
+
+#instalar thunar o pcmanfm como gestor de archivos
+sudo apt install pcmanfm
+
+#instalar qtile i3 o bmpown como windowns tilling manager
+sudo apt install i3 xorg suckless-tools
+#inslar display manager xdm o lightdm o xinit
+
+
+sudo apt install xdm
+echo 'exec i3' > ~/.xsession
+sudo reboot
+
+sudo apt install lightdm
+sudo reboot
+
+xinit
+echo 'exec i3' > ~/.xsession
+startx
+#instalar feh o nitrogen para gestionar los fondos de pantalla
+
+#instalar lxappearance para gestionar los temas de iconos y del gestor de archivos
+
+#instalar compton para la transparencia de ventanas
