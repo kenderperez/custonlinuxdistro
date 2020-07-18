@@ -1,0 +1,11 @@
+windown + m = ventana grande
+windown + s = ventana pantalla completa
+window + flechas = moverse por las ventanas
+window + c = cambiar ventana
+windown + numeros = moverse por espacios de trabajo
+window + Alt + esc = cerraar seccion
+window + d = rofi menu run
+window + espacio = rofi menu show
+window = enter = nueva terminal
+window + q = cerrar ventana actual
+
