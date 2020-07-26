@@ -1,0 +1,15 @@
+sudo apt install zsh
+copiar la carpeta powerlevel10k a nuestra home luego ejecutar el siguiente script
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
+luego ejecutar zsh en la terminal y configurar
+modificar el archivo .zshrc de nuestra home y colocar lo siguiente :
+
+source ~/powerlevel10k/powerlevel10k.zsh-theme
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+SAVEHIST=1000
+HISTFILE=~/.zsh_history
+
+#custom start script
